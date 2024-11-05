@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .textalign {
+
+            display: flex;
+            flex-direction: row;
+             justify-content: center; 
+            /* align-items: center;
+            margin: auto; */
+            padding: auto;
+            /* justify-content: space-around; */
+            gap:5px;
+            /* margin: 0px; */
+            
+        }
+        .head{
+            background-color: black;
+            color: white;
+        }
+        h1{
+            text-align: center;
+            margin: 0;
+        }
+        .imagealign{
+            display: flex;
+            margin: 25px;
+            gap:15px;
+            justify-content: center;
+        }
+        .imagesize{
+            width:200px;
+            height: 150px;
+
+        }
+        .firstimage{
+            display: inline-block;
+            height:300px;
+            width: 200px;
+            margin: 20px;
+            border-radius: 5px;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+        }
+        .btnalign{
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            color: white;
+            align-content: center;
+            margin-left: 60px;
+        }
+        .wholealign{
+            justify-content: center;
+            display: flex;
+        }
+        h4{
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+        }
+        .btn{
+            background-color: yellowgreen;
+            width:300px;
+        }
+        .footer{
+            background-color: black;
+            color: white;
+            height: 200px;
+            /* display: inline-block; */
+            width:100%;
+            text-align: center;
+        }
+        .textallign{
+            margin:auto;
+        }
+        .cen{
+            align-items: center;
+        }
+        .tab{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+   
+
+   <div class="head">
+    <h1>Restaar</h1>
+     <div class="textalign"> 
+    <h4 >Home|</h4>
+    <h4>Receipe|</h4>
+    <h4>Contact</h4>
+    </div>
+    </div>
+    <!-- <div class="imagealign">
+        <img src="food1.jpg" class="imagesize">
+    </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi doloremque tempore harum atque consectetur optio tenetur inventore, minima, ullam temporibu</p>
+        <!-- <img src="food2.jpg" class="imagesize">
+        <img src="food3.jpg" class="imagesize">
+        <img src="food4.jpg" class="imagesize"> -->
+
+    
+     <!-- </div> -->
+    <div class="wholealign">
+      <div class="firstimage">
+        <img src="./images/food1.jpg" class="imagesize">
+        <h4>Egg Omelette </h4>
+        <p>something which is very delicious.Give a try</p>
+        <button class="btnalign">Order Now</button>
+      </div>
+
+      <div class="firstimage">
+        <img src="./images/food2.jpg" class="imagesize">
+        <h4>Veg Nuggets</h4>
+        <p>which are crisp from outside and soft from inside. Give a try </p>
+        <button class="btnalign">Order Now</button>
+      </div>
+
+      <div class="firstimage">
+        <img src="./images/food3.jpg" class="imagesize">
+        <h4>Mutton Biriyani</h4>
+        <p>Yummy and spicy mutton biriyani.Give a try </p>
+        <button class="btnalign">Order Now</button>
+      </div>
+
+      <div class="firstimage">
+        <img src="./images/food4.jpg" class="imagesize">
+        <h4>Tangy Veg Noodles</h4>
+        <p>Chinese long and non-sticky Noodles. Give a try </p>
+        <button class="btnalign">Order Now</button>
+      </div>
+      </div>
+
+      <div class="footer">
+      
+       
+        <!-- <h1 class="textallign"> -->
+            <h1>
+            Contact us
+            </h1>
+           
+        <table class="tab">
+        <tr>
+            <td>Name</td>
+            <td><input type="text"></td>
+            </tr>
+            <tr>
+            <td>Age</td>
+            <td><input type="number"></td>
+            </tr>
+            <tr>
+            <td>Email</td>
+            <td><input type="text"></td>
+            </tr>
+            <td></td>
+            <tr>
+             <td>   </td>
+            </tr>
+            </table>
+            <button class="btn">Send</button>
+           
+            </div>
+             
+</body>
+</html>
